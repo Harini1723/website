@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind&display=swap");
+
+* {
+  font-family: "Hind", sans-serif;
+}
+.span-element{
+  color:aqua;
+  font-family:emoji;
+  font-size:30px;
+}
+.paragraph{
+  font-size:20px;
+
+}
+.para1 {
+  color:black;
+  font-family:roboto;
+  font-weight: bold;
+}
+.text {
+  text-decoration: underline;
+}
+.box1 {
+  background-color: green;
+  border-radius: 12px;
+  height: 20px;
+  width: 220px;
+  border-width: 0px;
+  color: white;
+  font-size: 10px;
+  text-align: right;
+  padding-right: 5px;
+  margin-top: 50px;
+}
+
+.box2 {
+  background-color: green;
+  border-radius: 12px;
+  height: 20px;
+  width: 180px;
+  border-width: 0px;
+  color: white;
+  font-size: 10px;
+  text-align: right;
+  padding-right: 5px;
+  margin-top: 32px;
+
+}
+
+.box3 {
+  background-color: green;
+  border-radius: 12px;
+  height: 20px;
+  width: 150px;
+  border-width: 0px;
+  color: white;
+  font-size: 10px;
+  text-align: right;
+  padding-right: 5px;
+  margin-top: 22px;
+
+}
+
+.Bannerbgimg {
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/perspective-exterior-nobody-empty-box_1258-260.jpg?w=996&t=st=1689752565~exp=1689753165~hmac=721c8ae6382faca1102736809ec88581f90ebc2296f429aa0aaa446324e1980f");
+  background-size:cover;
+  position: relative;
+}
+
+.bannerText {
+  text-align:left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.bannerTitle {
+  font-size: 4rem;
+}
+
+.bannerDesc {
+  font-size: 2rem;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: rgb(112, 216, 206);
+  border: 2px solid yellowgreen;
+}
+
+.bIcon {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.img-fluid:hover {
+  border: 2px solid yellowgreen;
+}
+
+.card-img-top {
+  height: 50vh;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 6px;
+  width: 4%;
+  border-top: 0;
+  border-color: #00f7ff;
+  text-align: center;
+}
+.divider-grey {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 50px;
+  border-top: 2px solid #b3b3b1;
+  padding-bottom: 40px;
+}
